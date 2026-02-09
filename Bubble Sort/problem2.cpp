@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// Finding The First and Last Occurance of Number in The Array
+// Finding The Occurance Of The Elemet In The Array
 int LastOcc(int arr[], int n, int key)
 {
     int start = 0;
