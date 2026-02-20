@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void Altermax(int arr[], int size)
+void altermax(int arr[], int size)
 {
     int left = 0;
     int right = size - 1;
@@ -26,6 +26,6 @@ void Altermax(int arr[], int size)
 int main()
 {
     int arr[5] = {3, 4, 5, 9, 1};
-    Altermax(arr, 5);
+    altermax(arr, 5);
     return 0;
 }
